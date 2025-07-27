@@ -28,9 +28,10 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
 
     # ESP-IDFのクローンとセットアップ
 # ※バージョンは開発したいESP-IDFの安定版に合わせてください (例: v5.2.1, v5.1.2 など)
-ARG ESPIDF_VERSION="v5.4.1" # ここでバージョンを指定
+ARG ESPIDF_VERSION="v5.2.1" # ここでバージョンを指定
 #ESPをどこにインストールするかきめる住所のようなものを設定する
-ENV IDF_PATH="/opt/esp-idf" # ESP-IDFのインストールパス
+ENV IDF_PATH="/opt/esp-idf" 
+# ESP-IDFのインストールパス
 
 # ESP-IDFを/opt/esp-idfにクローン
 
