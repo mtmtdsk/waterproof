@@ -22,8 +22,9 @@
 				"ms-vscode.cpptools",
 				"ms-vscode.cmake-tools",
 				"twxs.cmake",
-				// ARM Cortex-M組み込みデバッグのためにこれを追加します:
-				"marus25.cortex-debug"
+				"marus25.cortex-debug", 
+				// ESP32開発用の公式拡張機能を追加:
+				"espressif.esp-idf-extension"
 			]
 		}
 	}
